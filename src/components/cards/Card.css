@@ -1,0 +1,9 @@
+.email-link {
+  text-decoration: none;
+}
+.img {
+  background-color:#0D6EFD;
+  display: flex;
+  align-items: center;
+  color: azure;
+}
