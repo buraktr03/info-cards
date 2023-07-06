@@ -14,11 +14,14 @@ const Card = ({ name, surname, phone, email, avatar, job }) => {
       <div className="card m-2">
         <div className="card-body">
           <div className="img">
-            <img
-              src={avatar}
-              className="card-img-top rounded-circle m-2"
-              alt="..."
-            />
+            <div className="img-div">
+              <img
+                src={avatar}
+                className="card-img-top rounded-circle m-2"
+                alt="..."
+              />
+            </div>
+
             <h5 className="card-title text-center fw-bold text-nowrap">
               {name} {surname.toUpperCase()}
             </h5>
