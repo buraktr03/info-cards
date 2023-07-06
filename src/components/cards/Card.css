@@ -6,13 +6,15 @@
   display: flex;
   align-items: center;
   color: azure;
-  height: 8rem;
+  height: 7rem;
 }
 .card-body {
-  width: 26rem;
+  width: 23rem;
 }
 
 .img-div {
+
+  margin-bottom: 0.5rem;
   width: 6rem;
   height: 6rem;
 }

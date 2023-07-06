@@ -22,7 +22,7 @@ const Card = ({ name, surname, phone, email, avatar, job }) => {
               />
             </div>
 
-            <h5 className="card-title text-center fw-bold text-nowrap">
+            <h5 className="card-title text-center fw-bold text-nowrap mx-5">
               {name} {surname.toUpperCase()}
             </h5>
           </div>
