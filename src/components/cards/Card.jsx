@@ -13,21 +13,16 @@ const Card = ({ name, surname, phone, email, avatar, job }) => {
     <div className="d-flex justify-content-center">
       <div className="card m-2">
         <div className="card-body">
-          <div className="img">
-            <div className="img-div">
-              <img
-                src={avatar}
-                className="card-img-top rounded-circle m-2"
-                alt="..."
-              />
+          <div className="text-center card-top">
+            <div className="img-wrapper d-flex align-items-center">
+              <img src={avatar} className="card-img-top mx-2" alt="..." />
             </div>
-
-            <h5 className="card-title text-center fw-bold text-nowrap mx-5">
+            <h5 className="card-title fw-bold mx-auto">
               {name} {surname.toUpperCase()}
             </h5>
           </div>
           <hr />
-          <p className="card-text mt-2">
+          <p className="card-text">
             <FontAwesomeIcon icon={faUserTie} /> {job}
           </p>
           <p className="card-text">

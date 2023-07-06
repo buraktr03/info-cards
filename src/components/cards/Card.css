@@ -1,20 +1,18 @@
 .email-link {
   text-decoration: none;
 }
-.img {
-  background-color:#0D6EFD;
+
+.card-top {
+  background-color: #0d6efd;
   display: flex;
   align-items: center;
   color: azure;
-  height: 7rem;
+  height: 10rem;
 }
+
 .card-body {
-  width: 23rem;
+  width: 25rem;
+  height: 25rem;
 }
 
-.img-div {
 
-  margin-bottom: 0.5rem;
-  width: 6rem;
-  height: 6rem;
-}
